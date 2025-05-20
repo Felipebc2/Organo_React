@@ -53,16 +53,13 @@ function App() {
     <div className="App">
       <Banner />
       <Form teams={teams.map(team => team.nome)} onNewColabAdd={colab => onNewColabAdd(colab)}/>
-      {teams.map
-        (team =>
-          <Team 
+      {teams.map (team => <Team 
             key={team.nome} 
             nome={team.nome}
             corPrimaria={team.corPrimaria}
             corSecundaria={team.corSecundaria}
-          />
-        )
-      }
+            colabs={colabs.filter(colab => colab.team === team.nome)}
+      />)}
     </div>
   );
 }

@@ -9,7 +9,15 @@ export const Team = (props) => {
     return (
         <section className='team' style={secColor}>
             <h3 style={h3Color}>{props.nome}</h3>
-            <Colab />
+            <div className='colabs'>
+                {props.colabs.map
+                    ( colab => 
+                        <Colab 
+                        nome={colab.nome}
+                        cargo={colab.cargo}
+                        imagem={colab.imagem}
+                />)}
+            </div>
         </section>
     )
 }
