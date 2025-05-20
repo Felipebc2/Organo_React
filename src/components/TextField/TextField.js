@@ -9,7 +9,7 @@ export const TextField = (props) => {
             <label>
                 {props.label}
             </label>
-            <input placeholder={Modifiedplaceholder}/>
+            <input required={props.obrigatorio} placeholder={Modifiedplaceholder}/>
         </div>
     )
 }
