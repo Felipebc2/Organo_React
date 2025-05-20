@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Banner from './components/Banner';
 import Form from './components/Form';
 import Team from './components/Team';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
 
@@ -60,6 +61,7 @@ function App() {
             corSecundaria={team.corSecundaria}
             colabs={colabs.filter(colab => colab.team === team.nome)}
       />)}
+      <Footer />
     </div>
   );
 }
