@@ -4,7 +4,7 @@ import Button from '../Button'
 import './Form.css'
 import { useState } from 'react'
 
-export const Form = () => {
+export const Form = (props) => {
 
     const times = [
         'Programação',
@@ -23,7 +23,12 @@ export const Form = () => {
 
     const saved = (event) => {
         event.preventDefault()
-        console.log('Formulário enviado => ', nome, cargo, imagem, team)
+        props.onNewColabAdd({
+            nome,
+            cargo,
+            imagem,
+            team
+        })  
     } 
 
     return(
