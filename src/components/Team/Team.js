@@ -1,4 +1,5 @@
 import './Team.css'
+import Colab from '../Colab'
 
 export const Team = (props) => {
 
@@ -8,6 +9,7 @@ export const Team = (props) => {
     return (
         <section className='team' style={secColor}>
             <h3 style={h3Color}>{props.nome}</h3>
+            <Colab />
         </section>
     )
 }
