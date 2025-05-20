@@ -18,7 +18,11 @@ export const Form = (props) => {
             cargo,
             imagem,
             team
-        })  
+        })
+        setNome('')
+        setCargo('')
+        setImagem('')
+        setTeam('')
     } 
 
     return(

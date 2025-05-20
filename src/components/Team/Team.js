@@ -7,7 +7,7 @@ export const Team = (props) => {
     const h3Color = { borderColor: props.corPrimaria }
 
     return (
-        <section className='team' style={secColor}>
+        (props.colabs.length > 0) && <section className='team' style={secColor}>
             <h3 style={h3Color}>{props.nome}</h3>
             <div className='colabs'>
                 {props.colabs.map
