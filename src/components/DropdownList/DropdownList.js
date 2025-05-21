@@ -4,7 +4,8 @@ export const DropdownList = (props) => {
     return(
         <div className="dropdown-list">
             <label>{props.label}</label>
-            <select onChange={evento => props.onChange(evento.target.value)} required={props.obrigatorio} value={props.value}>
+            <select onChange={evento => props.onChange(evento.target.value)} required={props.obrigatorio} value={props.valor}>
+                <option value="" />
                 {props.itens.map(item => <option key={item}>{item}</option>)}
             </select>
         </div>

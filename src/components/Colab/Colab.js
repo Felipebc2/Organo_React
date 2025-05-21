@@ -1,8 +1,8 @@
 import './Colab.css'
 
-export const Colab = ({ nome, imagem, cargo}) => {
+export const Colab = ({ nome, imagem, cargo, corDeFundo}) => {
     return (<div className='colab'>
-        <div className='header'>
+        <div className='header' style={{ backgroundColor: corDeFundo }}>
             <div>
                 <img src={imagem} alt={nome}></img>
             </div>

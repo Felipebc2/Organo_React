@@ -46,7 +46,6 @@ function App() {
   ]
 
   const onNewColabAdd = (colab) => {
-    console.log(colab)
     setColabs([...colabs, colab])
   }
 

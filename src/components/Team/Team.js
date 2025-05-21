@@ -12,7 +12,9 @@ export const Team = (props) => {
             <div className='colabs'>
                 {props.colabs.map
                     ( colab => 
-                        <Colab 
+                        <Colab
+                        corDeFundo={props.corPrimaria}
+                        key={colab.nome}
                         nome={colab.nome}
                         cargo={colab.cargo}
                         imagem={colab.imagem}
