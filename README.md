@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+<div align="center">
+  <h1>Organo React</h1>
+  <h3>🐍 Ferramentas e Linguagens Utilizadas 🐍</h2>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **JavaScript (ES6+)**: Linguagem de programação utilizada no desenvolvimento.
+- **HTML5 & CSS3**: Marcação e estilização das páginas.
+- **Create React App**: Ferramenta para inicialização do projeto React.
+- **Vercel**: Plataforma de hospedagem para deploy do projeto.
 
-## Available Scripts
+<div align="center">
+  <h2>📝 Resumo</h2>
+</div>
 
-In the project directory, you can run:
+O Organo é uma aplicação desenvolvida com React que permite criar e visualizar organogramas de equipes. Através de um formulário, é possível adicionar colaboradores, especificando nome, cargo, imagem e o time ao qual pertencem. Os colaboradores são exibidos em cards organizados por equipe, proporcionando uma visualização clara da estrutura organizacional.
 
-### `npm start`
+<div align="center">
+  <h2>🖋️ Descrição Curta</h2>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Aplicação React para criação e visualização de organogramas de equipes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<div align="center">
+  <h2>📄 Descrição Longa</h2>
+</div>
 
-### `npm test`
+O projeto Organo foi desenvolvido durante o curso "React: Desenvolvendo com JavaScript" da Alura. A aplicação tem como objetivo facilitar a organização de equipes em empresas, permitindo que usuários adicionem colaboradores a diferentes times de forma dinâmica e visual.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ao preencher o formulário com as informações do colaborador (nome, cargo, imagem e time), um card é gerado automaticamente e exibido na seção correspondente ao time selecionado. Isso proporciona uma maneira intuitiva de visualizar a composição das equipes.
 
-### `npm run build`
+O projeto utiliza componentes reutilizáveis do React, promovendo uma arquitetura modular e de fácil manutenção. Além disso, foi realizado o deploy da aplicação utilizando a plataforma Vercel, tornando-a acessível através da web.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div align="center">
+  <h2>🛠️ O que foi desenvolvido</h2>
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Formulário interativo para cadastro de colaboradores.
+- Geração dinâmica de cards de colaboradores.
+- Organização dos colaboradores por times.
+- Estilização responsiva para diferentes dispositivos.
+- Deploy da aplicação na Vercel.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<div align="center">
+  <h2>📁 Estrutura do Projeto</h2>
+</div>
 
-### `npm run eject`
+```
+Organo_React/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Banner/
+│   │   ├── Formulario/
+│   │   ├── Rodape/
+│   │   ├── Time/
+│   │   └── Colaborador/
+│   ├── App.js
+│   ├── index.js
+│   └── index.css
+├── package.json
+└── README.md
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<div align="center">
+  <h2>▶️ Execução do Projeto</h2>
+</div>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone o repositório:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   git clone https://github.com/Felipebc2/Organo_React.git
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Acesse o diretório do projeto:**
 
-## Learn More
+   ```bash
+   cd Organo_React
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. **Instale as dependências:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   npm install
+   ```
 
-### Code Splitting
+4. **Inicie a aplicação:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+   npm start
+   ```
 
-### Analyzing the Bundle Size
+   A aplicação estará disponível em `http://localhost:3000`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<div align="center">
+  <h2>⚠️ Observações</h2>
+</div>
 
-### Making a Progressive Web App
+- Certifique-se de ter o Node.js instalado em sua máquina para executar o projeto localmente.
+- O projeto foi desenvolvido com foco educacional, visando a prática de conceitos aprendidos no curso da Alura.
+- Para visualizar a aplicação em produção, acesse: [https://organo-khaki-two.vercel.app](https://organo-khaki-two.vercel.app)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center">
+  <h2>Getting Started with Create React App</h2>
+  <p>This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).</p>
+</div>
