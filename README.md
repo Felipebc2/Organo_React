@@ -15,7 +15,7 @@
 O Organo é uma aplicação desenvolvida com React que permite criar e visualizar organogramas de equipes. Através de um formulário, é possível adicionar colaboradores, especificando nome, cargo, imagem e o time ao qual pertencem. Os colaboradores são exibidos em cards organizados por equipe, proporcionando uma visualização clara da estrutura organizacional.
 
 <div align="center">
-  <h2>📄 Descrição Longa</h2>
+  <h2>📄 Descrição</h2>
 </div>
 
 O projeto Organo foi desenvolvido durante o curso "React: Desenvolvendo com JavaScript" da Alura. A aplicação tem como objetivo facilitar a organização de equipes em empresas, permitindo que usuários adicionem colaboradores a diferentes times de forma dinâmica e visual.
