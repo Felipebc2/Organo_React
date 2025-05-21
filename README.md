@@ -1,5 +1,7 @@
 <div align="center">
   <h1>Organo React</h1>
+  <p>O Organo é uma aplicação desenvolvida com React que permite criar e visualizar organogramas de equipes. Através de um formulário, é possível adicionar colaboradores, especificando nome, cargo, imagem e o time ao qual pertencem. Os colaboradores são exibidos em cards organizados por equipe, proporcionando uma visualização clara da estrutura organizacional.
+</p>
 </div>
 
 
@@ -7,12 +9,6 @@
   <h2>🐍 Ferramentas e Linguagens Utilizadas 🐍</h2>
   <img src="https://skillicons.dev/icons?i=react,js,html,css,vercel" />
 </div>
-
-<div align="center">
-  <h2>📝 Resumo</h2>
-</div>
-
-O Organo é uma aplicação desenvolvida com React que permite criar e visualizar organogramas de equipes. Através de um formulário, é possível adicionar colaboradores, especificando nome, cargo, imagem e o time ao qual pertencem. Os colaboradores são exibidos em cards organizados por equipe, proporcionando uma visualização clara da estrutura organizacional.
 
 <div align="center">
   <h2>📄 Descrição</h2>
