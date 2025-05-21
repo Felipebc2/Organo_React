@@ -89,6 +89,7 @@ Organo_React/
 - Certifique-se de ter o Node.js instalado em sua máquina para executar o projeto localmente.
 - O projeto foi desenvolvido com foco educacional, visando a prática de conceitos aprendidos no curso da Alura.
 - Para visualizar a aplicação em produção, acesse: [https://organo-khaki-two.vercel.app](https://organo-khaki-two.vercel.app)
+- Projeto do [Figma](https://www.figma.com/community/file/1410393986549302425)
 
 <div align="center">
   <h2>Getting Started with Create React App</h2>
