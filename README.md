@@ -1,13 +1,12 @@
 <div align="center">
   <h1>Organo React</h1>
-  <h3>🐍 Ferramentas e Linguagens Utilizadas 🐍</h2>
 </div>
 
-- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
-- **JavaScript (ES6+)**: Linguagem de programação utilizada no desenvolvimento.
-- **HTML5 & CSS3**: Marcação e estilização das páginas.
-- **Create React App**: Ferramenta para inicialização do projeto React.
-- **Vercel**: Plataforma de hospedagem para deploy do projeto.
+
+<div align="center">
+  <h2>🐍 Ferramentas e Linguagens Utilizadas 🐍</h2>
+  <img src="https://skillicons.dev/icons?i=react,js,html,css,vercel" />
+</div>
 
 <div align="center">
   <h2>📝 Resumo</h2>
